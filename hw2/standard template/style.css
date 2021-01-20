@@ -1,0 +1,16 @@
+body {
+    margin:100px;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+h1 {
+    color: cornflowerblue;
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+}
+
+#mars {
+    width: 500px;
+    border: solid 50px aliceblue;
+}
