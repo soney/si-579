@@ -18,4 +18,4 @@ This assignment practices your ability to customize the style of the HTML using 
 
 ## Example
 
-Please refer to the `./template`.
+Please refer to the `./template`. A working demo can be found [here](https://soney.github.io/si-579/hw2/template/index.html).
