@@ -1,4 +1,4 @@
-# Assignment2: Including CSS
+# Assignment2-1: Including CSS
 
 This assignment practices your ability to customize the style of the HTML using CSS. You can continue with the HTML pages built from the last assignment or start a new webpage. 
 
@@ -18,4 +18,4 @@ This assignment practices your ability to customize the style of the HTML using 
 
 ## Example
 
-Please refer to the `./template`. A working demo can be found [here](https://soney.github.io/si-579/hw2/template/index.html).
+Please refer to the `./template`. A working demo can be found [here](https://soney.github.io/si-579/hw2-1/template/index.html).
