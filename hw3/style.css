@@ -1,0 +1,11 @@
+.container {
+    margin-top: 50px;
+    text-align: center;
+}
+#time-display {
+    margin: 50px;
+    font-size: 200px;
+}
+#time-unit {
+    font-size: 100px;
+}
