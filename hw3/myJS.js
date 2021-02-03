@@ -1,7 +1,5 @@
 /*
-* For excercise 1, you should create an event handler for the id "color-block"
-* on mouse click.
-*
+* Excercise 1
 *
 */
 
