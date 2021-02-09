@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Lunch Menu</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="menu.js" defer></script>
+	</head>
+	<body>
+		<section>
+			<h1>Lunch Menu</h1>
+			<button id="hide-spicy-button">Hide Spicy Item</button>
+			<button id="all-button">Display All</button>
+			<ul id="lunch-list">
+				<li>Beef Broccoli</li>
+				<li>Sesame Chicken</li>
+				<li>Chicken Broccoli</li>
+				<li class="spicy">Sesame Chicken</li>
+				<li>Chicken Mixed Vegetables</li>
+				<li class="spicy">Kung Pao Chicken</li>
+			</ul>
+		</section>
+
+		<section>
+			<h1>Add New Item</h1>
+			<div>
+				<label for="item-name">Item Name</label>
+				<input type="text" id="item-name"/>
+			</div>
+			<div>
+				<input type="checkbox" id="is-spicy"/>
+				<label for="is-spicy">Is Spicy</label>
+			</div>
+			<button id="add-button">Add</button>
+		</section>
+	</body>
+</html>
