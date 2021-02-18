@@ -1,0 +1,36 @@
+body {
+    margin: 50px;
+}
+#date-list {
+    list-style-type: none;
+    font-size: 1em;
+}
+
+#date-list li {
+    background: #f4f4f4;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.time-diff {
+    margin: 25px;
+}
+
+.past-time:after {
+    margin: 5px;
+    color: #aaa;
+    font-size: .8em;
+    content: 'days ago'
+}
+
+.future-time:after {
+    margin: 5px;
+    color: #aaa;
+    font-size: .8em;
+    content: 'days in the future'
+}
+
+.event-time {
+    font-size: .8em;
+    margin: 10px;
+}
