@@ -8,6 +8,9 @@
   },
   "author": "",
   "license": "ISC",
+  "publishConfig": {
+    "registry":"https://github.com/soney/si-579"
+  },
   "dependencies": {
     "bootstrap": "^4.6.0",
     "moment": "^2.29.1"
