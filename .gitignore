@@ -1,2 +1,4 @@
 .DS_Store
 april_local/
+**/.idea
+**/node_modules
