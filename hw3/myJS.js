@@ -20,10 +20,7 @@ function changeColor(){
     }
     else{
         //change the background color using JS
-
         //Change the text of the color using the span id color-name
-
-
     }
 }
 
