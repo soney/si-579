@@ -20,6 +20,7 @@ import("../assets/data.json")
 		for (let psid = 1; psid < 5; psid++) {
 			for (let i = 0; i < data.length; i++) {
 				const ele = data[order[i]];
+				if(ele['Opt-out']) continue;
 				const newCard = document.createElement("div");
 				newCard.classList.add("card", "mycard");
 				newCard.setAttribute("data-groups", `["PS${psid}"]`);
