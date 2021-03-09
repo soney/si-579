@@ -1,0 +1,53 @@
+/* .mynavbar {
+	background-color: #563d7c;
+} */
+
+h2{
+  color:#888;
+}
+
+.filter-label {
+	display: block;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 4px;
+	color: #95a5a6;
+}
+
+.filters-group {
+	padding: 0;
+	margin: 0 0 4px;
+	border: 0;
+}
+
+.textfield {
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    width: 100%;
+    border: 2px solid #95a5a6;
+    border-radius: 4px;
+    padding: .5em;
+    font-size: 1rem;
+    color: #34495e;
+    transition: .15s
+  }
+.navbar-logo{
+  width:50px;
+  margin-right:10px;
+}
+
+.mycard{
+  width: 20rem;
+  margin:8px;
+  transition:all 0.5s ease;
+}
+
+.mycard:hover{
+  filter: grayscale(80%);
+}
+
+.card-preview {
+  height: 400px;
+  pointer-events: none;
+  border: 0;
+}

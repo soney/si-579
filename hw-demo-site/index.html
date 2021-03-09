@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>SI 579 Winter 2021 Problem Set Demo Page</title>
+		<link rel="stylesheet" href="assets/style.css" />
+		<script src="dist/main.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-dark bg-dark mynavbar">
+				<div class="container-fluid">
+					<span class="navbar-brand mb-0 h1"
+						>
+                        <img class="navbar-logo" src="assets/logo.png" alt="">
+                        <span>
+                            SI 579 Problem Set Demo Page
+                        </span>  
+                        </span
+					>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<section class="jumbotron">
+				<div class="container">
+					<div class="row">
+						<div class="col-4">
+							<div class="row">
+								<div class="col-6">
+									<div class="filters-group">
+										<label
+											for="filters-search-input"
+											class="filter-label"
+											>Search</label
+										>
+										<input
+											class="textfield filter__search js-shuffle-search"
+											type="search"
+											id="filters-search-input"
+										/>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<div class="filters-group">
+										<p class="filter-label">Filter</p>
+										<div class="btn-group filter-options">
+										  <button class="btn btn-outline-primary" data-group="PS1">PS1</button>
+										  <button class="btn btn-outline-primary" data-group="PS2">PS2</button>
+										  <button class="btn btn-outline-primary" data-group="PS3">PS3</button>
+										  <button class="btn btn-outline-primary" data-group="PS4">PS4</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-8">
+							<h1>Building Interactive User Interfaces</h1>
+							<h2>SI 579 Winter 2021</h2>
+						</div>
+					</div>
+				</div>
+			</section>
+            <section id="container-wrapper">
+                <div class="container d-flex flex-wrap" id="list-container">
+                </div>
+            </section>
+		</main>
+	</body>
+</html>
