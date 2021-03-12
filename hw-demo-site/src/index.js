@@ -17,7 +17,7 @@ import("../assets/data.json")
 	.then((data) => {
 		let order = Array.from(Array(data.length).keys());
 		order = shuffleArray(order);
-		for (let psid = 1; psid < 5; psid++) {
+		for (let psid = 1; psid < 7; psid++) {
 			for (let i = 0; i < data.length; i++) {
 				const ele = data[order[i]];
 				if(ele['Opt-out']) continue;
