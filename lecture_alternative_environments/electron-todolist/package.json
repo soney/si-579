@@ -1,0 +1,21 @@
+{
+  "name": "electron-todo-list",
+  "version": "1.0.0",
+  "description": "A TODO List Electron Application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "electron": "^12.0.0"
+  }
+}
