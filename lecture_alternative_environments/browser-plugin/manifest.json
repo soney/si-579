@@ -1,0 +1,12 @@
+{
+	"name": "Hello Umich",
+	"version": "1.0",
+	"description": "Build an extension that runs on Umich's websites",
+	"manifest_version": 2,
+	"content_scripts": [
+		{
+			"matches": ["https://www.si.umich.edu/about-umsi/events*"],
+			"js": ["myapp.js"]
+		}
+	]
+}
