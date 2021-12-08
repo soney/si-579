@@ -3,18 +3,9 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-const low = require('lowdb')
-const FileSync = require('lowdb/adapters/FileSync')
+const SimpleLog = require('./simple_log');
 
-const adapter = new FileSync('db.json')
-const db = low(adapter)
-// Set some defaults (required if your JSON file is empty)
-db.defaults({ comments: [] })
-  .write()
-
-var indexRouter = require('./routes/index');
-var loadRouter = require('./routes/load');
-var submitRouter = require('./routes/submit');
+const db = new SimpleLog('db.json');
 
 var app = express();
 
@@ -24,8 +15,12 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', indexRouter);
-app.use('/load', loadRouter(db));
-app.use('/submit', submitRouter(db));
+app.get('/load', (req, res) => {
+    res.send(db.value);
+});
+app.post('/submit', (req, res) => {
+    db.push(req.body);
+    res.send({data: 'success'});
+});
 
 module.exports = app;
