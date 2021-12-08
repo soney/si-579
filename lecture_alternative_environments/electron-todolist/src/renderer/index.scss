@@ -1,0 +1,58 @@
+:root {
+    --bs-font-sans-serif: 'Quicksand', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+table#lemon-app {
+    margin-top: 7em;
+
+    h1 {
+        text-align: center;
+        font-size: inherit 2em;
+
+        button.btn {
+            position: relative;
+            top: -4px;
+        }
+    }
+
+    > tbody, > tfoot, > tfoot td {
+        border-top: none !important;
+    }
+
+    > tbody button.btn, > tfoot button.btn, input.form-control {
+        font-size: 2em;
+    }
+
+    > tfoot td, > thead th {
+        border-bottom: none;
+    }
+    
+    > tbody tr:last-child td {
+        border-bottom: none;
+    }
+
+    &.working {
+        tr td {
+            opacity: 0.15;
+            border-bottom-color: transparent;
+        }
+        tr.active td {
+            opacity: 1.0;
+        }
+    }
+
+    .lemon, .lemon-timer {
+        color: var(--bs-warning);
+        font-size: 2em;
+    }
+
+    .btn-link {
+        text-decoration: none;
+    }
+
+    button.btn.placeholder {
+        background: none;
+        opacity: 0.3;
+    }
+}
+
