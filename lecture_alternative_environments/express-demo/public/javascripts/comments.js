@@ -1,7 +1,7 @@
 const inputBox = document.getElementById('comment-input');
 const commentsList = document.getElementById('comments-list');
 
-inputBox.addEventListener("keyup", (e)=>{
+inputBox.addEventListener("keydown", (e)=>{
     if(e.key === "Enter") {
         submitComment(inputBox.value);
         addComment(inputBox.value);
